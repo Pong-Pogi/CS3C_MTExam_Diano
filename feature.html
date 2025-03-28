@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured Products</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Featured Products</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="feature.html">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Discover Our Premium Collection</h2>
+        <p>Shop the finest quality products tailored for you!</p>
+    </section>
+
+    <main>
+        <section class="feature-presentation">
+            <img src="assets/full set gear.webp" alt="Feature Product" class="feature-photo">
+            <div class="feature-info">
+                <h2>Premium Quality Riding Gears</h2>
+                <p>Our featured products are designed to give you comfort and style. Browse through our collection now!</p>
+            </div>
+        </section>
+
+        <section class="product-grid">
+            <div class="product-card">
+                <img src="assets/helmet.webp" alt="AGV Helmet">
+                <h3>AGV Helmet</h3>
+                <p class="price">₱12,000</p>
+                <button class="add-to-cart" data-name="AGV Helmet" data-price="12,000">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/gloves.webp" alt="Riding Gloves">
+                <h3>Riding Gloves</h3>
+                <p class="price">₱15,000</p>
+                <button class="add-to-cart" data-name="Riding Gloves" data-price="15,000">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/pants.webp" alt="Jacket Armor Pants">
+                <h3>Jacket Armor Pants</h3>
+                <p class="price">₱1,200</p>
+                <button class="add-to-cart" data-name="Jacket Armor Pants" data-price="1,200">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="assets/jacket.webp" alt="Alpinestars AST Air V2 Jacket">
+                <h3>Alpinestars AST Air V2 Jacket</h3>
+                <p class="price">₱13,200</p>
+                <button class="add-to-cart" data-name="Alpinestars AST Air V2 Jacket" data-price="13,200">Add to Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <aside>
+        <h3>Shopping Cart</h3>
+        <ul id="cart-list"></ul>
+        <p><strong>Total: ₱<span id="total-price">0</span></strong></p>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 John Paul A. Diano | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
