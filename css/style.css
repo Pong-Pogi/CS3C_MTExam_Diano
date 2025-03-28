@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e7eff6;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(to right, #42a5f5, #4caf50);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: #64b5f6;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+  font-size: 26px;
+  border-radius: 10px;
+}
+
+.cta-button {
+  background: #4caf50;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background: #388e3c;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.info {
+  width: 65%;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+  width: 25%;
+  text-align: center;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+  width: 70%;
+  border-radius: 50%;
+  border: 4px solid #42a5f5;
+  margin-bottom: 20px;
+}
+
+.contact {
+  text-align: center;
+  padding: 40px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  margin: 30px auto;
+  width: 70%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+}
+
+form input, form textarea {
+  margin: 15px 0;
+  padding: 12px;
+  width: 100%;
+  border: 2px solid #42a5f5;
+  border-radius: 5px;
+}
+
+button {
+  background: #42a5f5;
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #1e88e5;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #42a5f5;
+  color: white;
+  font-size: 14px;
+}
